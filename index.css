@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.Logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.nav-bg-clr {
+    background-color: white;
+    box-shadow: 0px 0px 7px grey;
+}
+
+/* search-box */
+
+.search-box {
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50px;
+    height: 50px;
+    width: 500px;
+}
+
+.btn {
+    border-color: #5e17eb;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    margin-right: 70px;
+}
+
+.btn:hover {
+    border-color: #5e17eb;
+    background-color: #5e17eb;
+    color: white;
+}
+
+.purple {
+    color: #5e17eb;
+}
+
+.purple:hover {
+    color: white;
+}
+
+/* search-box */
+
+.login-btn {
+    border-color: black;
+    border-width: 1px;
+    color: black;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+
+.login-btn:hover {
+    background-color: black;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+}
+
+
+.signup-btn {
+    background-color: black;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+    transition: all 0.5s;
+}
+
+.signup-btn:hover {
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+}
+
+/* Header */
+
+/* Carousel */
+
+.carousel {
+    padding-bottom: 50px;
+}
+
+/* Carousel */
+
+/* Container-promo */
+
+.left-promo {
+    width: 60%;
+    float: left;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.right-promo {
+    width: 37%;
+    float: right;
+}
+
+.Promo {
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    color: #210070;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 65px;
+}
+
+.Kelassan {
+    padding-bottom: 50px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+
+.cari-btn {
+    background-color: #5e17eb;
+    border-color: #5e17eb;
+    border-width: 1px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    margin-left: 50px;
+    transition: all 0.5s;
+}
+
+.cari-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Container-promo */
+
+/* Line */
+
+.divider {
+    width: 700px;
+    height: 2px;
+    border-radius: 20px;
+    background-color: #210070;
+    display: inline-block;
+    Margin-top: 100px;
+    Margin-bottom: 100px;
+}
+
+/* Line */
+
+/* Best-seller */
+
+.best-seller {
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: aliceblue;
+}
+
+.terpopuler {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.css-img {
+    width: 400px;
+    height: 400px;
+}
+
+.btn-daftar {
+    background-color: #5e17eb;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.btn-daftar:hover {
+    transform: scale(1.05);
+}
+
+.card-1 {
+    background-color: white;
+    width: 33.33%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgb(202, 202, 202);
+    text-align: center;
+    float: right;
+}
+
+.card-2 {
+    background-color: white;
+    width: 33.33%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgb(202, 202, 202);
+    text-align: center;
+    float: left;
+}
+
+.card-3 {
+    background-color: white;
+    width: 33.33%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgb(202, 202, 202);
+    text-align: center;
+    float: right;
+}
+
+
+/* Best-seller */
