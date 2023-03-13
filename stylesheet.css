@@ -19,7 +19,7 @@
     width: 400px;
 }
 
-.btn {
+.btn-1 {
     border-color: purple;
     color: white;
     border-radius: 50px;
@@ -28,7 +28,7 @@
     margin-right: 70px;
 }
 
-.btn:hover {
+.btn-1:hover {
     border-color: purple;
     background-color: purple;
     color: white;
