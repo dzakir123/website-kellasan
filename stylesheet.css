@@ -1,3 +1,5 @@
+/* Header */
+
 .Logo {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -19,7 +21,7 @@
     width: 400px;
 }
 
-.btn-1 {
+.btn {
     border-color: purple;
     color: white;
     border-radius: 50px;
@@ -28,7 +30,7 @@
     margin-right: 70px;
 }
 
-.btn-1:hover {
+.btn:hover {
     border-color: purple;
     background-color: purple;
     color: white;
@@ -78,3 +80,6 @@
     border-width: 1px;
     color: black;
 }
+
+/* Header */
+
