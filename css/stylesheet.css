@@ -1,9 +1,9 @@
 /* Header */
-
-.Logo {
-    font-family: 'Roboto', sans-serif;
+.Logo-1 {
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 30px;
+    padding-left: 40px;
 }
 
 .nav-bg-clr {
@@ -11,40 +11,9 @@
     box-shadow: 0px 0px 7px grey;
 }
 
-/* search-box */
-
-.search-box {
-    border-color: black;
-    border-width: 1px;
-    border-radius: 50px;
-    height: 50px;
-    width: 400px;
+.menu-text {
+    font-family: 'Poppins', sans-serif;
 }
-
-.btn-1 {
-    border-color: purple;
-    color: white;
-    border-radius: 50px;
-    height: 50px;
-    width: 50px;
-    margin-right: 70px;
-}
-
-.btn:hover {
-    border-color: purple;
-    background-color: purple;
-    color: white;
-}
-
-.purple {
-    color: purple;
-}
-
-.purple:hover {
-    color: white;
-}
-
-/* search-box */
 
 .login-btn {
     border-color: black;
@@ -54,6 +23,7 @@
     height: 50px;
     width: 100px;
     margin-right: 10px;
+    transition: all 0.5s;
 }
 
 .login-btn:hover {
@@ -72,6 +42,8 @@
     border-radius: 50px;
     height: 50px;
     width: 100px;
+    margin-right: 40px;
+    transition: all 0.5s;
 }
 
 .signup-btn:hover {
@@ -80,5 +52,4 @@
     border-width: 1px;
     color: black;
 }
-
 /* Header */
