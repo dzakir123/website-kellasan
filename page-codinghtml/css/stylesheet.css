@@ -53,3 +53,10 @@
     color: black;
 }
 /* Header */
+
+@media (max-width: 375) {
+    .Logo-1 {
+        padding-left: 10px;
+        color: blue;
+    }
+}
