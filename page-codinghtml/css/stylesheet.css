@@ -16,21 +16,26 @@
 }
 
 .login-btn {
-    border-color: black;
+    border-color: white;
     border-width: 1px;
     color: black;
     border-radius: 50px;
-    height: 50px;
-    width: 100px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
     margin-right: 10px;
     transition: all 0.5s;
 }
 
 .login-btn:hover {
-    background-color: black;
+    background-color: white;
     border-color: black;
-    border-width: 1px;
-    color: white;
+    border-width: 2px;
+    color: black;
 }
 
 
