@@ -1,0 +1,757 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.navbar{
+    box-shadow: 0px 0px 5px gray;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+
+.login-btn {
+    border-color: black;
+    border-width: 1px;
+    color: black;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+
+.login-btn:hover {
+    background-color: black;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+}
+
+
+.signup-btn {
+    background-color: black;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+    transition: all 0.5s;
+}
+
+.signup-btn:hover {
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+}
+/* Header */
+
+
+/* Carousel */
+#carouselExampleDark {
+    padding-bottom: 50px;
+}
+/* Carousel */
+
+
+/* Promo */
+h1 {
+    color: black;
+    
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 65px;
+}
+
+.Kelassan {
+    color: #210070;
+    padding-bottom: 55px;
+    font-weight: 700;
+}
+
+.promo-text {
+    
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 100px;
+}
+
+.programing {
+    font-weight: 700;
+    color: #5e17eb;
+}
+
+.cari-btn {
+    background-color: #5e17eb;
+    border-color: #5e17eb;
+    border-width: 1px;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    transition: all 0.5s;
+}
+
+.cari-btn:hover {
+    transform: scale(1.1);
+}
+
+.promo-img {
+    width: auto;
+    height: auto;
+}
+/* Promo */
+
+
+/* Terpopuler */
+#terpopuler {
+    background-color: rgb(232, 243, 252);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.kursus {
+    margin-bottom: 40px;
+    padding-left: 300px;
+}
+
+.terpopuler {
+    font-weight: 700;
+    color: #210070;
+    margin-bottom: 40px;
+}
+
+.cari-disini {
+    padding-bottom: 20px;
+    padding-left: 300px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 5px rgb(191, 221, 247);
+}
+
+.card-img-top {
+    border-radius: 40px;
+}
+
+.card-title {
+    
+    font-weight: bold;
+}
+
+.card-text {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.belajar-btn {
+    background-color: #5e17eb;
+    border-color: #5e17eb;
+    border-width: 1px;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 360px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+.belajar-btn:hover {
+    transform: scale(1.1);
+}
+/* Terpopuler */
+
+
+/* Pilih kategori */
+#kategori {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.pilih {
+    padding-left: 300px;
+}
+
+.kategori {
+    padding-left: 300px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #210070;
+}
+
+.type {
+    padding-left: 300px;
+    padding-bottom: 20px;
+}
+
+.img-icon {
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.category-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.category-1 {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(185, 185, 185);
+    height: 120px;
+    width: 410px;
+    border-radius: 20px;
+}
+
+.col-1 {
+    align-items: center;
+    width: auto;
+}
+
+.card-body-category {
+    text-align: left;
+    line-height: 0px;
+}
+
+.category-title {
+    padding-top: 25px;
+    font-size: 35px;
+}
+
+.category-text {
+    font-size: 20px;
+}
+/* Pilih kategori */
+
+
+
+
+
+/* Media screen CSS */
+
+@media screen and (max-width : 1020px) {
+    /* Header */
+    .logo {
+        
+        font-weight: bold;
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    
+    .login-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .signup-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /* Header */
+
+    /* Promo */
+    h1 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .Kelassan {
+        padding-bottom: 40px;
+    }
+
+    .promo-text {
+        padding-bottom: 40px;
+    }
+
+    .cari-btn {
+        width: 100%;
+    }
+
+    .Promo-img {
+        width: max-content;
+    }
+
+    .col-sm-7 {
+        width: auto;
+    }
+    /* Promo */
+
+    /* Terpopuler */
+    .kursus {
+        padding-left: 90px;
+        font-size: 50px;
+    }
+
+    .cari-disini {
+        padding-left: 90px;
+        font-size: 20px;
+    }
+
+    .card {
+        width: auto;
+        border-radius: 30px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        border-radius: 30px;
+    }
+    /* Terpopuler */
+}
+
+
+
+@media screen and (max-width : 900px) {
+    /* Promo */
+    h1 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .Kelassan {
+        padding-bottom: 40px;
+    }
+
+    .promo-text {
+        padding-bottom: 40px;
+    }
+
+    .cari-btn {
+        width: 100%;
+    }
+
+    .Promo-img {
+        width: auto;
+    }
+    /* Promo */
+
+    /* Terpopuler */
+    .kursus {
+        padding-left: 45px;
+    }
+
+    .cari-disini {
+        padding-left: 45px;
+    }
+    /* Terpopuler */
+
+    /* Pilih dengan kategori */
+
+    /* ini CSS teks */
+    .pilih {
+        padding-left: 50px;
+    }
+
+    .kategori {
+        padding-left: 50px;
+    }
+
+    .type {
+        padding-left: 50px;
+    }
+    /* ini CSS teks */
+
+    .col-1 {
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    .category-1 {
+        width: auto;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .img-icon {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        padding-bottom: 0px;
+    }
+
+    .card-body-category {
+        width: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    /* Pilih dengan kategori */
+}
+
+
+
+@media screen and (max-width : 780px) {
+    /* Header */
+    .logo {
+        
+        font-weight: bold;
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    
+    .login-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .signup-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /* Header */
+
+    /* Promo */
+    h1 {
+        font-size: 70px;
+        line-height: 75px;
+    }
+
+    .Kelassan {
+        padding-bottom: 40px;
+    }
+
+    .promo-text {
+        padding-bottom: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .cari-btn {
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .Promo-img {
+        width: auto;
+    }
+    /* Promo */
+
+    /* Terpopuler */
+    .kursus {
+        padding-left: 20px;
+        font-size: 70px;
+    }
+
+    .cari-disini {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .card-title {
+        font-size: 35px;
+    }
+
+    .card-text {
+        font-size: 25px;
+    }
+
+    .belajar-btn {
+        height: 60px;
+        font-size: 20px;
+    }
+    /* Terpopuler */
+
+
+    /* Pilih dengan kategori */
+
+    /* ini CSS teks */
+    .pilih {
+        padding-left: 20px;
+        font-size: 70px;
+    }
+
+    .kategori {
+        padding-left: 20px;
+        font-size: 70px;
+    }
+
+    .type {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    /* ini CSS teks */
+
+    .img-icon {
+        border-radius: 30px;
+        padding-bottom: 10px;
+    }
+
+    .card-body-category {
+        width: auto;
+        text-align: left;
+    }
+
+    .category-title {
+        padding-top: 60px;
+        font-size: 50px;
+    }
+    /* Pilih dengan kategori */
+}
+
+
+
+@media screen and (max-width: 500px) {
+    /* Header */
+    .logo {
+        
+        font-weight: bold;
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    
+    .login-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .signup-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /* Header */
+
+    /* Promo */
+    h1 {
+        font-size: 45px;
+        line-height: 40px;
+        padding-left: 5px;
+    }
+
+    .Kelassan {
+        padding-bottom: 40px;
+    }
+
+    .promo-text {
+        padding-bottom: 40px;
+        padding-left: 5px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .cari-btn {
+        width: 100%;
+    }
+
+    .Promo-img {
+        width: 100%;
+    }
+    /* Promo */
+
+    /* Terpopuler */
+    .kursus {
+        padding-left: 10px;
+        font-size: 50px;
+    }
+
+    .cari-disini {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-text {
+        font-size: 20px;
+    }
+
+    .belajar-btn {
+        width: 300px;
+    }
+    /* Terpopuler */
+
+    /* Pilih dengan kategori */
+
+    /* ini CSS teks */
+    .pilih {
+        padding-left: 5px;
+        font-size: 50px;
+    }
+
+    .kategori {
+        padding-left: 5px;
+        font-size: 50px;
+    }
+
+    .type {
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    /* ini CSS teks */
+
+    .col-1 {
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    .category-1 {
+        width: auto;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .img-icon {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        padding-bottom: 0px;
+    }
+
+    .card-body-category {
+        width: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .category-title {
+        padding-top: 15px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+    /* Pilih dengan kategori */
+}
+
+
+
+@media (max-width: 375px) {
+    /* Header */
+    .logo {
+        font-weight: bold;
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    
+    .login-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .signup-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /* Header */
+
+
+    /* Promo */
+    h1 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .Kelassan {
+        padding-bottom: 40px;
+    }
+
+    .promo-text {
+        padding-bottom: 40px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .cari-btn {
+        width: 100%;
+    }
+
+    .Promo-img {
+        width: 100%;
+    }
+    /* Promo */
+
+
+    /* Terpopuler */
+    .kursus {
+        font-size: 40px;
+    }
+
+    .cari-disini {
+        font-size: 15px;
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .belajar-btn {
+        width: 250px;
+        font-size: 15px;
+    }
+    /* Terpopuler */
+
+
+    /* Pilih dengan kategori */
+
+    /* ini CSS teks */
+    .pilih {
+        padding-left: 5px;
+        font-size: 40px;
+    }
+
+    .kategori {
+        padding-left: 5px;
+        font-size: 40px;
+    }
+
+    .type {
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    /* ini CSS teks */
+
+    .col-1 {
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    .category-1 {
+        width: auto;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .img-icon {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        padding-bottom: 0px;
+    }
+
+    .card-body-category {
+        width: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .category-title {
+        padding-top: 10px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+    /* Pilih dengan kategori */
+}
+
+/* Media screen CSS */
