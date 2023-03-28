@@ -1,0 +1,130 @@
+/* Header */
+.navbar{
+  box-shadow: 0px 0px 5px gray;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+
+.login-btn {
+  border-color: black;
+  border-width: 1px;
+  color: black;
+  border-radius: 50px;
+  height: 50px;
+  width: 100px;
+  margin-right: 10px;
+  transition: all 0.5s;
+}
+
+.login-btn:hover {
+  background-color: black;
+  border-color: black;
+  border-width: 1px;
+  color: white;
+}
+
+
+.signup-btn {
+  background-color: black;
+  border-color: black;
+  border-width: 1px;
+  color: white;
+  border-radius: 50px;
+  height: 50px;
+  width: 100px;
+  margin-right: 40px;
+  transition: all 0.5s;
+}
+
+.signup-btn:hover {
+  background-color: white;
+  border-color: black;
+  border-width: 1px;
+  color: black;
+}
+/* Header */
+/* Footer */
+.bg-footer {
+  background-color: #210070;
+}
+
+footer {
+  background: #111;
+  margin-top: 80px;
+  padding-top: 60px;
+  padding-bottom: 1px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover i {
+  color: #5e17eb;
+}
+
+.footer-bottom {
+  background: #5e17eb;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 15px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom {
+  text-transform: uppercase;
+}
+/* Footer */
