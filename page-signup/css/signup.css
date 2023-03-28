@@ -1,0 +1,29 @@
+*{
+    
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.row{
+    background-color: aliceblue;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    width: 600px;
+    margin-left: 250px;
+}
+.mb-3{
+    text-align: left;
+}
+.btn{
+    width: 30pc;
+    border-radius: 20px;
+    
+}
+
+@media (max-width:300) {
+
+   
+}
